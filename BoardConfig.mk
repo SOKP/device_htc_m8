@@ -61,3 +61,13 @@ TARGET_LIBINIT_DEFINES_FILE := device/htc/m8/init/init_m8.c
 
 # Inherit from the proprietary version
 -include vendor/htc/m8/BoardConfigVendor.mk
+
+
+
+# TWRP Build Flags
+BOARD_RECOVERY_BLDRMSG_OFFSET := 2048
+TW_THEME := portrait_hdpi
+TW_INCLUDE_DUMLOCK := true
+TW_INCLUDE_CRYPTO := true
+TW_NO_EXFAT_FUSE := true
+TW_NO_SCREEN_BLANK := true
